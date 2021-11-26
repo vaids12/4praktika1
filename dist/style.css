@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0a0917;
+    font-family: 'Oxygen', sans-serif;
+
+}
+
+form {
+    width: 660px;
+    height: 800px;
+    margin: 50px auto;
+    text-align: center;
+
+    display: block;
+
+
+}
+
+h2 {
+    padding: 30px 0 30px 0;
+}
+
+
+.address {
+    color: grey;
+}
+
+.phone,
+.email,
+h2 {
+    color: white;
+}
+
+.info {
+    color: #b5a36e;
+}
+
+
+
+.box {
+    display: flex;
+    flex-flow: row nowrap;
+
+
+
+}
+
+.box1 {
+
+    width: 220px;
+    height: 180px;
+    position: relative;
+    padding-top: 60px;
+
+
+
+}
+
+.iconPhone {
+    position: absolute;
+
+    left: 100px;
+    top: 25px;
+    color: black;
+    z-index: 2;
+
+}
+
+.iconPlace {
+    position: absolute;
+
+    left: 105px;
+    top: 25px;
+    color: black;
+    z-index: 2;
+
+}
+
+.iconEmail {
+    position: absolute;
+
+    left: 100px;
+    top: 25px;
+    color: black;
+    z-index: 2;
+
+}
+
+.circle {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    background-color: #b5a36e;
+    left: 80px;
+    bottom: 100px;
+    z-index: 1;
+}
+
+input,
+a,
+textarea {
+    display: block;
+    border-radius: 5px;
+    width: 660px;
+    border: 0;
+
+}
+
+input,
+textarea {
+    background-color: #363430;
+    margin-bottom: 20px;
+}
+
+input {
+    height: 35px;
+}
+
+textarea {
+    height: 150px;
+}
+
+a {
+    text-decoration: none;
+    background-color: #b5a36e;
+    color: black;
+    height: 45px;
+    text-align: center;
+    padding-top: 15px;
+}
