@@ -109,6 +109,7 @@ textarea {
     border-radius: 5px;
     width: 660px;
     border: 0;
+    padding: 15px;
 
 }
 
@@ -120,6 +121,7 @@ textarea {
 
 input {
     height: 35px;
+    padding-left: 15px;
 }
 
 textarea {
@@ -133,4 +135,11 @@ a {
     height: 45px;
     text-align: center;
     padding-top: 15px;
+    cursor: pointer;
+    transition: 0.5s all ease;
+
+}
+
+a:hover {
+    background-color:#363430 ;
 }
