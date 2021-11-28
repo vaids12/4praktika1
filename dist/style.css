@@ -16,10 +16,7 @@ form {
     height: 800px;
     margin: 50px auto;
     text-align: center;
-
     display: block;
-
-
 }
 
 h2 {
@@ -46,9 +43,6 @@ h2 {
 .box {
     display: flex;
     flex-flow: row nowrap;
-
-
-
 }
 
 .box1 {
@@ -57,14 +51,10 @@ h2 {
     height: 180px;
     position: relative;
     padding-top: 60px;
-
-
-
 }
 
 .iconPhone {
     position: absolute;
-
     left: 100px;
     top: 25px;
     color: black;
@@ -74,7 +64,6 @@ h2 {
 
 .iconPlace {
     position: absolute;
-
     left: 105px;
     top: 25px;
     color: black;
@@ -84,7 +73,6 @@ h2 {
 
 .iconEmail {
     position: absolute;
-
     left: 100px;
     top: 25px;
     color: black;
@@ -104,14 +92,13 @@ h2 {
 }
 
 input,
-a,
+button,
 textarea {
     display: block;
     border-radius: 5px;
     width: 660px;
     border: 0;
     padding: 15px;
-
 }
 
 input,
@@ -129,7 +116,7 @@ textarea {
     height: 150px;
 }
 
-a {
+button {
     text-decoration: none;
     background-color: #b5a36e;
     color: black;
@@ -138,9 +125,9 @@ a {
     padding-top: 15px;
     cursor: pointer;
     transition: 0.5s all ease;
-
 }
 
-a:hover {
-    background-color:#363430 ;
+button:hover {
+    opacity: 0.7;
+    
 }
