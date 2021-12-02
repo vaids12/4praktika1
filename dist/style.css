@@ -116,7 +116,7 @@ textarea {
     height: 150px;
 }
 
-button {
+.button {
     text-decoration: none;
     background-color: #b5a36e;
     color: black;
@@ -127,7 +127,7 @@ button {
     transition: 0.5s all ease;
 }
 
-button:hover {
+.button:hover {
     opacity: 0.7;
     
 }
